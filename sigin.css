@@ -1,0 +1,35 @@
+div {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    position: center;
+    direction: rtl;
+}
+.rightpage {
+    width:500px;
+    height: 400px;
+    margin-left:20px;
+    border:11px groove red;
+    display: inline-block;
+    direction: rtl;
+}
+.leftpage {
+    width: 500px;
+    height: 400px;
+    margin-right: 20px;
+    border: 11px groove red;
+    display: inline-block;
+
+
+}
+p {
+    color: yellow;
+    background: red;
+    text-align: center;
+    font-size: 50px;
+}
+
+td, th {
+    color: yellow;
+    background-color:red;
+}
+
